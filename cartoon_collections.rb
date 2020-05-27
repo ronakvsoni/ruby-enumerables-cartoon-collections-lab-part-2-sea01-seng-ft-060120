@@ -4,7 +4,6 @@ def square_array(array)
   # Return a new array of the results
  array.map{|num| num * num}
 end
-end
 p square_array(arrays)
 
 
