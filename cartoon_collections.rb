@@ -2,13 +2,8 @@ arrays = [1,2,3,4,5]
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
-  new_array = []
-index = 0 
- While index < array.length do
-   new_array << array[index] * array[index]
-   index += 1
+ array.map{|num| num * num}
 end
-new_array
 end
 p square_array(arrays)
 
