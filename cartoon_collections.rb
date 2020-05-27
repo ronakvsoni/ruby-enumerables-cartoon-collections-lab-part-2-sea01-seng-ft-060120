@@ -1,3 +1,4 @@
+arrays = [1,2,3,4,5]
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
@@ -9,7 +10,7 @@ index = 0
 end
 new array
 end
-p square_array([1,2,3,4,5])
+p square_array(arrays)
 
 
 def summon_captain_planet(planeteer_calls)
