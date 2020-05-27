@@ -10,8 +10,8 @@ calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
-  array.map{|string|string.capitalize}
-  puts {"#{array} !"}
+  planeteer_calls.map{|string|string.capitalize}
+  puts {"#{planeteer_calls}!"}
 end
 p summon_captain_planet(calls)
 
