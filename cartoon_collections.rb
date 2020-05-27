@@ -1,8 +1,16 @@
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
-  
+  new array = []
+index = 0 
+ While index < array.length do
+   new array << array[index] * array[index]
+   index+ = 1
 end
+new array
+end
+p square_array([1,2,3,4,5])
+
 
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
